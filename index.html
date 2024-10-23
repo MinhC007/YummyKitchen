@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+     <!--font font-awesome link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Furit</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__logo"><a href="#"><img src="assets/logoFurit.png" alt="">Furit</a></div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="index.html">Trang chủ</a></li>
+          <li class="link"><a href="#choose">Giới thiệu</a></li>
+          <li class="link"><a href="shop.html">Shop</a></li>
+          <li class="link"><a href="#blog">Blog</a></li>
+        </ul>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+        <div class="nav__actions">
+          <span><i class="ri-search-fill"></i></span>
+          <span><i class="ri-user-fill"></i></span>
+          <div class="icon-cart">
+            <i class="ri-shopping-bag-3-fill"></i>
+            <span>0</span>
+        </div>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h1>Làm cho nội thất của bạn tối giản và hiện đại hơn</h1>
+        <p>
+          Biến căn phòng của bạn bằng pantone trở nên tối giản và hiện đại hơn 
+          rất nhiều một cách dễ dàng và nhanh chóng
+        </p>
+        <form action="/">
+          <input type="text" placeholder="Search furniture" />
+          <button><i class="ri-search-line"></i></button>
+        </form>
+        <a href="#choose"><i class="ri-arrow-down-double-line"></i></a>
+      </div>
+    </header>
+
+    <section class="section__container choose__container" id="choose">
+      <img class="choose__bg" src="assets/dot-bg.png" alt="bg" />
+      <div class="choose__content">
+        <h2 class="section__header">Tại sao chọn Furit</h2>
+        <p class="section__subheader">
+          Trải nghiệm sự sáng tạo và chuyên môn vô song trong thiết kế nội thất. 
+          Khám phá lý do tại sao chúng tôi là sự lựa chọn đúng đắn cho không gian mơ ước của bạn
+        </p>
+        <div class="choose__grid">
+          <div class="choose__card">
+            <span><i class="ri-truck-line"></i></span>
+            <h4>Giao hàng nhanh và miễn phí</h4>
+            <p>
+              Nâng tầm thiết kế nội thất của bạn với dịch vụ 
+              Giao hàng nhanh & Miễn phí của chúng tôi mà không chậm trễ
+            </p>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-shopping-bag-3-line"></i></span>
+            <h4>Dễ dàng mua sắm</h4>
+            <p>
+              Khám phá sự thanh lịch dễ dàng: Khám phá các giải pháp thiết kế nội thất dễ mua của chúng tôi
+            </p>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-customer-service-2-line"></i></span>
+            <h4>Hỗ trợ 24/7</h4>
+            <p>
+              Hãy yên tâm vì đội ngũ tận tâm của chúng tôi luôn sẵn sàng phục vụ bạn 24/7
+            </p>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-loop-right-line"></i></span>
+            <h4>Trả hàng không rắc rối</h4>
+            <p>
+              Chúng tôi tin vào sự kết hợp hoàn hảo và nếu không vừa, 
+              chúng tôi sẽ giúp bạn trả lại sản phẩm một cách dễ dàng
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="choose__image">
+        <img src="assets/choo.jpg" alt="choose" />
+      </div>
+    </section>
+
+    <section class="offer__container" id="offer">
+      <div class="offer__grid__top">
+        <img src="assets/offer-1.jpg" alt="offer" />
+        <img src="assets/offer-2.jpg" alt="offer" />
+        <img src="assets/offer-3.jpg" alt="offer" />
+        <div class="offer__content">
+          <h2 class="section__header">Ưu đãi thông minh</h2>
+          <p class="section__subheader">
+            Khám phá các ưu đãi độc quyền để biến đổi nội thất của bạn theo phong cách riêng
+          </p>
+          <button class="btn">Khám phá ngay</button>
+        </div>
+      </div>
+      <div class="offer__grid__bottom">
+        <img src="assets/offer-4.jpg" alt="offer" />
+        <img src="assets/offer-5.jpg" alt="offer" />
+        <img src="assets/offer-6.jpg" alt="offer" />
+        <img src="assets/offer-7.jpg" alt="offer" />
+      </div>
+    </section>
+
+    <section class="section__container craft__container" id="craft">
+      <div class="craft__content">
+        <h2 class="section__header">Được chế tạo bằng vật liệu tuyệt vời</h2>
+        <p class="section__subheader">
+          Nâng cao không gian của bạn với chất lượng và phong cách
+        </p>
+        <button class="btn">Khám phá</button>
+      </div>
+      <div class="swiper craft__image_container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide craft__image">
+            <div class="craft__image__content">
+              <img src="assets/craft-3.png" alt="craft" />
+              <p>Ghế Noric</p>
+              <h4>665.000 đ</h4>
+            </div>
+            <a href="#"><i class="ri-add-line"></i></a>
+          </div>
+          <div class="swiper-slide craft__image">
+            <div class="craft__image__content">
+              <img src="assets/craft-2.png" alt="craft" />
+              <p>Ghế Wingback</p>
+              <h4>550.000 đ</h4>
+            </div>
+            <a href="#"><i class="ri-add-line"></i></a>
+          </div>
+          <div class="swiper-slide craft__image">
+            <div class="craft__image__content">
+              <img src="assets/craft-1.png" alt="craft" />
+              <p>Ghế Accent</p>
+              <h4>770.000 đ</h4>
+            </div>
+            <a href="#"><i class="ri-add-line"></i></a>
+          </div>
+          <div class="swiper-slide craft__image">
+            <div class="craft__image__content">
+              <img src="assets/craft-4.png" alt="craft" />
+              <p>Ghế Rico</p>
+              <h4>570.000 đ</h4>
+            </div>
+            <a href="#"><i class="ri-add-line"></i></a>
+          </div>
+          <div class="swiper-slide craft__image">
+            <div class="craft__image__content">
+              <img src="assets/craft-5.png" alt="craft" />
+              <p>Ghế Logour</p>
+              <h4>920.000 đ</h4>
+            </div>
+            <a href="#"><i class="ri-add-line"></i></a>
+          </div>
+          <div class="swiper-slide craft__image">
+            <div class="craft__image__content">
+              <img src="assets/craft-6.png" alt="craft" />
+              <p>Ghế May</p>
+              <h4>660.000 đ</h4>
+            </div>
+            <a href="#"><i class="ri-add-line"></i></a>
+          </div>
+          <div class="swiper-slide craft__image">
+            <div class="craft__image__content">
+              <img src="assets/craft-7.png" alt="craft" />
+              <p>Ghế WAI</p>
+              <h4>800.000 đ</h4>
+            </div>
+            <a href="#"><i class="ri-add-line"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container modern__container" id="modern">
+      <div class="modern__image">
+        <img src="assets/dot-bg.png" alt="bg" class="modern__bg" />
+        <img src="assets/modern-1.jpg" alt="modern" class="modern__img-1" />
+        <img src="assets/chairs6.avif" alt="modern" class="modern__img-2" />
+        <img src="assets/modern-3.jpg" alt="modern" class="modern__img-3" />
+      </div>
+      <div class="modern__content">
+        <h2 class="section__header">
+          Chúng tôi giúp bạn thiết kế nội thất hiện đại
+        </h2>
+        <p class="section__subheader">
+          Biến đổi không gian của bạn với chuyên môn thiết kế nội thất đương đại của chúng tôi: 
+          Hãy để chúng tôi hướng dẫn bạn tạo ra nội thất đẹp và phong cách phản ánh sở thích và lối sống độc đáo của bạn
+        </p>
+        <div class="modern__grid">
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              Nhóm của chúng tôi chuyên thiết kế nội thất theo yêu cầu, mang phong cách thẩm mỹ hiện đại
+            </p>
+          </div>
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              Chúng tôi luôn đi đầu trong các xu hướng thiết kế, đảm bảo không gian của bạn vừa phong cách vừa sáng tạo.
+            </p>
+          </div>
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              Thiết kế nội thất hiện đại không chỉ là về mặt thẩm mỹ; mà còn là về chức năng và sự thoải mái.
+            </p>
+          </div>
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              Chúng tôi đảm nhiệm mọi khía cạnh của quá trình thiết kế, từ ý tưởng đến mua sắm và lắp đặt.
+            </p>
+          </div>
+        </div>
+        <button class="btn">Khám phá</button>
+      </div>
+    </section>
+
+    <section class="section__container blog_container" id="blog">
+      <h2 class="section__header">Blog gần đây</h2>
+      <div class="blog__grid">
+        <div class="blog__card">
+          <img src="assets/blog-1.jpg" alt="blog" />
+          <h4>Làm chủ chủ nghĩa tối giản hiện đại</h4>
+          <p><span>bởi</span> DesignSavvySoul <span>vào</span> ngày 18 tháng 4 năm 2022</p>
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-2.jpg" alt="blog" />
+          <h4>Sự kết hợp giữa công nghệ và thiết kế</h4>
+          <p>
+            <span>bởi</span> ChicNestInteriors <span>vào</span> ngày 10 tháng 11 năm 2022</p>
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-3.jpg" alt="blog" />
+          <h4>Nội thất hiện đại thân thiện với môi trường</h4>
+          <p><span>bởi</span> HomeStyleHarmony <span>vào</span> ngày 25 tháng 2 năm 2023</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__content">
+          <h4>ĐĂNG KÝ ĐỂ NHẬN TIN TỨC MỚI NHẤT VỀ CHÚNG TÔI</h4>
+          <p>
+            Chúng tôi khuyên bạn nên đăng ký nhận báo của chúng tôi. 
+            Nhập email của bạn để nhận thông tin cập nhật hàng ngày về chúng tôi
+          </p>
+        </div>
+      
+        <div class="footer__form">
+          <form action="/">
+            <input type="text" placeholder="Nhập email của bạn" />
+            <button>Đăng kí</button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="section__container footer__bar">
+        <div class="footer__logo">
+          <h4><a href="#">Furit</a></h4>
+          <p>© 2024 Furit - 470 Tran Dai Nghia - Da Nang</p>
+          <p>+84 868492647 - furitfurniture@gmail.com</p>
+        </div>
+        <div>
+          <div class="socialIcons">
+            <a href="https://www.facebook.com/profile.php?id=100041960020835"><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+        </div>
+          <ul class="footer__nav">
+            <li class="footer__link"><a href="#">Giới thiệu</a></li>
+            <li class="footer__link"><a href="#">Hợp tác</a></li>
+            <li class="footer__link"><a href="#">Chính sách quyền riêng tư</a></li>
+          </ul>
+        </div>
+        </div>
+    </footer>
+
+    <script src="cart.js" type="module"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
